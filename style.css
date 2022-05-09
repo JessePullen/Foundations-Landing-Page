@@ -1,9 +1,93 @@
 img {
     height: auto;
-    width: 100px;
+    width: 200px;
 }
 
 .main-image {
     height: auto;
+    width: 400px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-shrink: 0;
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-grow: 1;
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    text-align: center;
+    width: 200px;
+}
+
+.card p {
+    margin-top: 0;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    flex-grow: 1;
+}
+
+.quote-text {
+    display: flex;
+    flex-wrap: wrap;
     width: 300px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
