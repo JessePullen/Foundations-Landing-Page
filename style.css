@@ -1,12 +1,28 @@
+/* basic CSS */
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding-top: 15px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+/* CSS for images */
 img {
     height: auto;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
-.logo {
-    height: auto;
-    width: 50px;
+.main-image {
+    width: 300px;
 }
 
 .mid-section img {
@@ -14,50 +30,80 @@ img {
     background-color: #3882F6;
 }
 
+/* company logo CSS */
+.logo {
+    width: 50px;
+}
+
 .logo-container {
     display: flex;
     gap: 15px;
 }
 
-.main-image {
-    height: auto;
-    width: 300px;
-    border-radius: 10px;
-}
-
 body {
     height: 100vh;
     margin: 0;
-    /* overflow: hidden; */
     font-family: Roboto, sans-serif;
-  }
+}
 
+/* div containing all content */
 .container {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+/* CSS for header */
 header {
     display: flex;
     justify-content: center;
     flex-shrink: 0;
+    gap: 23%;
     background-color: #1F2937;
     color: #e5e7eb;
-    gap: 23%;
 }
 
+header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* CSS for top section */
 .top-section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 12%;
     flex: 1;
     background-color: #1F2937;
     color: #e5e7eb;
     padding-bottom: 30px;
-    gap: 12%;
 }
 
+.top-content {
+    width: 20%;
+}
+
+.top-content button {
+    border: #1F2937
+}
+
+.top-content h3 {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.top-content p {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e5e7eb;
+    margin-top: 2px;
+}
+
+/* CSS for mid section */
 .mid-section {
     display: flex;
     flex-direction: column;
@@ -66,6 +112,14 @@ header {
     gap: 20px;
 }
 
+.mid-section > p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1F2937;
+    padding: 10px;
+}
+
+/* CSS for images and matching text in middle section */
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -81,6 +135,8 @@ header {
     margin-top: 0;
 }
 
+
+/* CSS for quote section */
 .quote-section {
     display: flex;
     flex-direction: column;
@@ -106,73 +162,18 @@ header {
     flex-wrap: wrap;
     width: 700px;
     font-style: italic;
-    font-weight: lighter;  
+    font-weight: lighter;
     margin-bottom: 0;
     font-size: 28px;
     color: #1F2937;
 }
 
+/* CSS for bottom section */
 .bottom-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    background-color: #1F2937;
-    color: #f9faf8;
-    height: 5%;
-    font-size: 12px;
-    font-weight: 100;
-}
-
-.top-content {
-    width: 20%;
-}
-
-ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding-top: 15px;
-}
-
-button {
-    background-color: #3882F6;
-    color: #f9faf8;
-    border: 2px solid #f9faf8;
-    border-radius: 5px;
-    padding: 5px 20px;
-}
-
-.top-content button {
-    border: #1F2937
-}
-
-
-.top-content h3 {
-    font-size: 34px;
-    font-weight: bolder;
-    color: #f9faf8;
-    margin: 0;
-}
-
-.top-content p {
-    font-size: 12px;
-    font-weight: 300;
-    font-style: italic;
-    color: #e5e7eb;
-    margin-top: 2px;
-}
-
-header p {
-    font-size: 24px;
-    color: #f9faf8;
 }
 
 .signup {
@@ -186,19 +187,23 @@ header p {
     border-radius: 5px;
 }
 
-
 .signup-text {
     margin-top: -15px;
     font-size: 12px;
     font-weight: lighter;
 }
 
-
-
-.mid-section > p {
-    font-size: 30px;
-    font-weight: 700;
-    color: #1F2937;
-    padding: 10px;
+/* CSS for footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #1F2937;
+    color: #f9faf8;
+    height: 5%;
+    font-size: 12px;
+    font-weight: 100;
 }
 
+/* CSS for flexbox */
