@@ -49,12 +49,12 @@ header {
 
 .top-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 50px;
     flex: 1;
     background-color: #1F2937;
     color: #e5e7eb;
+    padding-bottom: 30px;
 }
 
 .mid-section {
@@ -89,23 +89,25 @@ header {
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 75px;
+    padding: 50px;
 }
 
 .quote-name {
     align-self: flex-end;
     margin-top: 0;
     font-weight: 700;
+    margin-right: 50px;
 }
 
 .quote-text {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 700px;
     font-style: italic;
     font-weight: lighter;  
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 28px;
+    color: #1F2937;
 }
 
 .bottom-section {
@@ -128,7 +130,7 @@ footer {
 }
 
 .top-content {
-    width: 40%;
+    width: 30%;
 }
 
 ul {
@@ -152,10 +154,18 @@ button {
 
 
 .top-content h3 {
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bolder;
     color: #f9faf8;
     margin: 0;
+}
+
+.top-content p {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e5e7eb;
+    margin-top: 0;
 }
 
 header p {
@@ -184,8 +194,9 @@ header p {
 
 
 .mid-section > p {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     color: #1F2937;
+    padding: 10px;
 }
 
