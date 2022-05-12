@@ -58,7 +58,7 @@ header {
     display: flex;
     justify-content: center;
     flex-shrink: 0;
-    gap: 23%;
+    gap: 20%;
     background-color: #1F2937;
     color: #e5e7eb;
 }
@@ -108,8 +108,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 2;
-    gap: 20px;
+    flex: 1;
 }
 
 .mid-section > p {
@@ -147,7 +146,7 @@ header p {
 .quote-container {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 20px;
 }
 
 .quote-name {
